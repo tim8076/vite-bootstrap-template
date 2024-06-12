@@ -1,0 +1,28 @@
+
+body {
+  line-height: 1.5;
+  color: $dark; // #000;
+  font-weight: $font-weight-normal; // 400
+  font-size: $font-size-base; // 1rem
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li{
+  margin-bottom: 0;
+}
+
+ul, ol, li {
+  list-style: none;
+  padding: 0;
+}
+
+
