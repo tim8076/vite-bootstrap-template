@@ -2,7 +2,7 @@
 
 @import 'bootstrap/scss/functions';
 // 2. Include any default variable overrides here
-@import './bootstrap-custom/variables';
+@import './helpers/variables';
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import 'bootstrap/scss/variables';
@@ -15,13 +15,12 @@
 @import 'bootstrap/scss/utilities';
 
 // 下面放入自訂utilities
-@import './bootstrap-custom/utilities';
+@import './helpers/utilities';
 //
 
 @import 'bootstrap/scss/utilities/api';
 
 @import 'bootstrap/scss/bootstrap';
-
 
 // 自訂樣式
 @import './mixins/mixins.scss';
